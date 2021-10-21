@@ -9,6 +9,10 @@
     result:= min * 60;
   end;
   
+  function DaysInYear(year: integer) : integer;
+  begin
+    if IsLeapYear(year)= True then result:= 366 else result:= 365;
+  end;
   
   begin
    
