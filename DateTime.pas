@@ -9,6 +9,7 @@
     result:= min * 60;
   end;
   
+  
   begin
    
   end.  
