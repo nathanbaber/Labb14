@@ -14,6 +14,14 @@
     if IsLeapYear(year)= True then result:= 366 else result:= 365;
   end;
   
+  function DaysInYearRange(x,x1: integer) : integer;
+  begin
+    for var i:= x to x1 do
+      begin
+      result+=DaysInYear(i);
+      end;
+  end;
+  
   begin
    
   end.  
